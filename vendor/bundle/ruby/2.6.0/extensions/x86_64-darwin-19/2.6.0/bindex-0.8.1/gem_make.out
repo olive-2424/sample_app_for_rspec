@@ -1,0 +1,15 @@
+current directory: /Users/olive_miu/runteq_basic/rspec_practice/sample_app_for_rspec/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/olive_miu/.rbenv/versions/2.6.4/bin/ruby -I /Users/olive_miu/.rbenv/versions/2.6.4/lib/ruby/2.6.0 -r ./siteconf20210102-62063-11btsmk.rb extconf.rb
+creating Makefile
+
+current directory: /Users/olive_miu/runteq_basic/rspec_practice/sample_app_for_rspec/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /Users/olive_miu/runteq_basic/rspec_practice/sample_app_for_rspec/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/olive_miu/runteq_basic/rspec_practice/sample_app_for_rspec/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20210102-62063-grffqd/skiptrace/internal

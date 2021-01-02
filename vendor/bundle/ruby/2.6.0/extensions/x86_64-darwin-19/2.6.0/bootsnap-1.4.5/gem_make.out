@@ -1,0 +1,15 @@
+current directory: /Users/olive_miu/runteq_basic/rspec_practice/sample_app_for_rspec/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.5/ext/bootsnap
+/Users/olive_miu/.rbenv/versions/2.6.4/bin/ruby -I /Users/olive_miu/.rbenv/versions/2.6.4/lib/ruby/2.6.0 -r ./siteconf20210102-62063-9i6d58.rb extconf.rb
+creating Makefile
+
+current directory: /Users/olive_miu/runteq_basic/rspec_practice/sample_app_for_rspec/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.5/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/olive_miu/runteq_basic/rspec_practice/sample_app_for_rspec/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.5/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/olive_miu/runteq_basic/rspec_practice/sample_app_for_rspec/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.5/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20210102-62063-1owji6s/bootsnap
