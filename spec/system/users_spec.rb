@@ -26,6 +26,7 @@ RSpec.describe "Users", type: :system do
           fill_in 'Password confirmation', with: 'password'
           click_button 'SignUp'
           expect(current_path).to eq users_path
+          expect(page).to have_content '1 error prohibited this task from being saved'
           expect(page).to have_content "Email can't be blank"
         end
       end
@@ -38,6 +39,7 @@ RSpec.describe "Users", type: :system do
           fill_in 'Password confirmation', with: 'password'
           click_button 'SignUp'
           expect(current_path).to eq users_path
+          expect(page).to have_content '1 error prohibited this task from being saved'
           expect(page).to have_content 'Email has already been taken'
         end
       end
@@ -77,6 +79,7 @@ RSpec.describe "Users", type: :system do
           fill_in 'Password confirmation', with: 'password'
           click_button 'Update'
           expect(current_path).to eq user_path(user)
+          expect(page).to have_content '1 error prohibited this task from being saved'
           expect(page).to have_content "Email can't be blank"
         end
       end
@@ -89,6 +92,7 @@ RSpec.describe "Users", type: :system do
           fill_in 'Password confirmation', with: 'password'
           click_button 'Update'
           expect(current_path).to eq user_path(user)
+          expect(page).to have_content '1 error prohibited this task from being saved'
           expect(page).to have_content 'Email has already been taken'
         end
       end
