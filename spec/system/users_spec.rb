@@ -3,6 +3,7 @@ require 'rails_helper'
 RSpec.describe "Users", type: :system do
   let(:user) { create(:user) }
   let(:other_user) { create(:user) }
+
   describe 'ログイン前' do
     describe 'ユーザーの新規登録' do
       context 'フォームの入力値が正常' do
